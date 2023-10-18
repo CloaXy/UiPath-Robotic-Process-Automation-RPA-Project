@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1140,4640.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1140,4469.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Customers_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -118,13 +118,13 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Customers" sap:VirtualizedContainerService.HintSize="820.8,4576" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Customers" sap:VirtualizedContainerService.HintSize="820.8,4404.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="758.4,4464" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="758.4,4292.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="customersDT" />
         <Variable x:TypeArguments="x:String" Default="llaytont@gmail.com" Name="userEmail" />
@@ -136,13 +136,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[customersDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="696,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Customers" WorkbookPath="C:\Users\Llayton Titus\Documents\UiPath\CMPG323_Proj4_34416579\CMPG323 EcoPower Logistics Data.xlsx" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Home Page - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="696,4224" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c400f59a-6521-4f45-8f73-f7eb7c716151" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Home Page - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="696,4052.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c400f59a-6521-4f45-8f73-f7eb7c716151" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="662.4,4007.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="662.4,3836" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="action" />
               </Sequence.Variables>
@@ -161,7 +161,7 @@
                   <OutArgument x:TypeArguments="x:String">[action]</OutArgument>
                 </ui:InputDialog.Result>
               </ui:InputDialog>
-              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="600,3359.2" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="600,3188" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
                 <ui:IfElseIf.ConditionBlocks>
                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                     <ui:IfElseIfBlock BlockType="If" Condition="[action = &quot;Add&quot;]">
@@ -252,19 +252,19 @@
                     </ui:IfElseIfBlock>
                     <ui:IfElseIfBlock BlockType="ElseIf" Condition="[action = &quot;Edit&quot;]">
                       <ui:IfElseIfBlock.Then>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472.8,553.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,382.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[customersDT]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="410.4,441.6" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[customersDT]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="387.2,270.4" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
                             <ui:ForEachRow.Body>
                               <ActivityAction x:TypeArguments="sd:DataRow">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376.8,253.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="newCell">
                                       <Variable.Default>
@@ -278,7 +278,6 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="333.6,164" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" Version="V3" />
                                 </Sequence>
                               </ActivityAction>
                             </ui:ForEachRow.Body>
