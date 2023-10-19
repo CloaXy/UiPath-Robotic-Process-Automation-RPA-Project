@@ -12,3 +12,5 @@ Within the project there is an excel document to show if the testing has succeed
 Link to project in orchastrator: https://cloud.uipath.com/lldevs/DefaultTenant/orchestrator_/processes?tid=1549851&fid=4831324&index=0&size=10&state=M4ewTgLgPgZglgUwDYBMoDsCGBbBUVxgIDGEcI6UmwxAevQCQAMUDAjFAExQDMUALAF1BQA%3D
 
 Link to ecopower web app: : https://cmpg323-ecopowerlogistics.azurewebsites.net/
+
+Orchestrator "Home" Link: https://cloud.uipath.com/lldevs/DefaultTenant/orchestrator_/?tid=1549851&fid=4831324
