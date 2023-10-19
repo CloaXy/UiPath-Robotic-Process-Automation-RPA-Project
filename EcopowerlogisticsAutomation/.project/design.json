@@ -1,5 +1,18 @@
 {
-  "Tags": [],
+  "Tags": [
+    {
+      "Key": "RPA"
+    },
+    {
+      "Key": "Automation"
+    },
+    {
+      "Key": "UiPath"
+    },
+    {
+      "Key": "UiPathStudio"
+    }
+  ],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
 }
