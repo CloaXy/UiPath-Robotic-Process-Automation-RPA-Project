@@ -10,7 +10,7 @@ RPA using UiPath can significantly benefit individuals, businesses, and companie
 # Project Details
 In this project, UiPath was used to automate the following tasks related to the web application developed in Project 3:
 
-1.Adding Records: The bot adds records from an Excel sheet to the web application's database.
+1. Adding Records: The bot adds records from an Excel sheet to the web application's database.
 
 2. Editing Records: It is capable of editing existing records in the database based on commands.
  
@@ -25,7 +25,7 @@ Execution: The bot executes the chosen action on the selected Excel sheet, inter
 
 Testing: The project includes an Excel document with a "Testing" tab. If the value is "True", the test has succeeded; if "False", one of the tests has failed.
 
-Project Links
+# Project Links
 Link to project in orchastrator: https://cloud.uipath.com/lldevs/DefaultTenant/orchestrator_/processes?tid=1549851&fid=4831324&index=0&size=10&state=M4ewTgLgPgZglgUwDYBMoDsCGBbBUVxgIDGEcI6UmwxAevQCQAMUDAjFAExQDMUALAF1BQA%3D
 
 Link to ecopower web app: : https://cmpg323-ecopowerlogistics.azurewebsites.net/
